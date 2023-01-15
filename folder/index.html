@@ -9,24 +9,29 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="logo">
-                <a href="#" class="header__logo">
-                    <img src="../img/лого.png" alt="Логотип">
-                </a>
+            <div class="header__logo">
+                <div class="logo">
+                    <a href="#" class="logo__link">
+                        <img src="../img/лого.png" class="logo-image" alt="Логотип">
+                    </a>
+                </div>
             </div>
 
-            <nav class="header__navigation">
-                <ul class="header__navigation-list">
-                    <li class="header_navigation-item">Главная</li>
-                    <li class="header_navigation-item">Услуги</li>
-                    <li class="header_navigation-item">Отзывы</li>
-                </ul>
-            </nav>
+            <div class="header__navigation">
+                <nav class="navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__item"><a href="#" class="navigation__link">Главная</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">Услуги</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">Отзывы</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
 
             <div class="contacts">
                 <a href="tel" class="contacts__telephone">8 800 700 30 30</a>
                 <div class="contacts__schedule">
-                    <a href="#">График работы</a>
+                    <a href="#" class="schedule__link">График работы</a>
                 </div>
                 <div class="shedule-block">
                     <p class="shedule-block__days-time"><b>пн-вс: 09:00-20:00</b></p>
@@ -37,114 +42,114 @@
         </header>
 
         <main class="main-block">
+            <section class="main">
+                <h1 class="main__headtxt">Авторские туры по Азии</h1>
+                <p class="main__description">Открой для себя Азию</p>
+                <div class="main__button">
+                    <button class="button">Подробнее</button>
+                </div>
+            </section>
 
-            <h1 class="main-block__headtxt">Авторские туры по Азии</h1>
-            <p class="main-block__description">Открой для себя Азию</p>
-            <div class="main-block__button">
-                <button class="button">Подробнее</button>
-            </div>
-        </main>
+            <section class="burning-tours">
+                <h2 class="burning-tours__headtxt">Горящие туры <img src="../img/flame.png" width="21px" alt="Огонь"> </h2> 
+                <section class="tour-cards">
+                    <ul class="tour-cards__list">
+                        <li class="tour-cards__list__item">
+                            <div class="tour-card">
+                                <div class="tour-card__image">
+                                    <img src="../img/river.png" class="tour-card__image-item" alt="river">
+                                </div>
+                                <div class="tour-card__content">
+                                    <div class="tour-card__name-block">
+                                        <h2 class="tour-card__name">Тайланд</h2>
+                                    </div>
+                                    <div class="tour-card__date-food">
+                                        <ul class="tour-card__list">
+                                            <li class="date-food__item"><img class="date-food__calendar" src="../img/calendar.png"alt ="календарь" width="26px">7-12 ночей</li>
+                                            <li class="date-food__item"><img class="date-food__food" src="../img/meal.png"alt ="food" width="26px">Завтраки</li>
+                                        </ul>
+                                    </div>
+                                    <div class="tour-card__description">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem odit, quidem fugit necessitatibus, provident dolores incidunt hic fugiat adipisci, illo et ex laudantium voluptate dignissimos harum reprehenderit voluptas neque vel?</p>
+                                    </div>
+                                    <div class ="tour-card__button">
+                                        <button class="card__button">СМОТРЕТЬ</button>
+                                    </div>
 
-        <div class="burning-tours">
-            <h2 class="burning-tours__headtxt">Горящие туры <img src="../img/flame.png" width="21px" alt="Огонь"> </h2> 
-            <div class="tour-cards">
-                <ul class="tour-cards__list">
-                    <li class="tour-cards__list__item">
-                        <div class="tour-card">
-                            <div class="tour-card__image-block">
-                                <img src="../img/river.png" alt="river">
-                            </div>
-                            <div class="tour-card__text-block">
-                                <div class="tour-card-name">
-                                    <h2 class="card-name">Тайланд</h2>
-                                </div>
-                                <div class="date-food">
-                                    <ul class="date-food__list">
-                                        <li class="date-food__item"><img class="date-food__calendar" src="../img/calendar.png"alt ="календарь" width="26px">7-12 ночей</li>
-                                        <li class="date-food__item"><img class="date-food__food" src="../img/meal.png"alt ="food" width="26px">Завтраки</li>
-                                    </ul>
-                                </div>
-                                <div class="tour-card__description">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem odit, quidem fugit necessitatibus, provident dolores incidunt hic fugiat adipisci, illo et ex laudantium voluptate dignissimos harum reprehenderit voluptas neque vel?</p>
-                                </div>
-                                <div class ="tour-card__button">
-                                    <button class="card__button">СМОТРЕТЬ</button>
-                                </div>
-
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="tour-cards__list__item">
-                        <div class="tour-card">
-                            <div class="tour-card__image-block">
-                                <img src="../img/pool.png" alt="river">
-                            </div>
-                            <div class="tour-card__text-block">
-                                <div class="tour-card-name">
-                                    <h2 class="card-name">Бали</h2>
-                                </div>
-                                <div class="date-food">
-                                    <ul class="date-food__list">
-                                        <li class="date-food__item"><img class="date-food__calendar" src="../img/calendar.png"alt ="календарь" width="26px">7-12 ночей</li>
-                                        <li class="date-food__item"><img class="date-food__food" src="../img/meal.png"alt ="food" width="26px">Завтраки</li>
-                                    </ul>
-                                </div>
-                                <div class="tour-card__description">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem odit, quidem fugit necessitatibus, provident dolores incidunt hic fugiat adipisci, illo et ex laudantium voluptate dignissimos harum reprehenderit voluptas neque vel?</p>
-                                </div>
-                                <div class ="tour-card__button">
-                                    <button class="card__button">СМОТРЕТЬ</button>
-                                </div>
-
-                            </div>
-                        </div>
-                    </li>
-                    <li class="tour-cards__list__item">
-                        <div class="tour-card">
-                            <div class="tour-card__image-block">
-                                <img src="../img/ocean.png" alt="river">
-                            </div>
-                            <div class="tour-card__text-block">
-                                <div class="tour-card-name">
-                                    <h2 class="card-name">Индонезия</h2>
-                                </div>
-                                <div class="date-food">
-                                    <ul class="date-food__list">
-                                        <li class="date-food__item"><img class="date-food__calendar" src="../img/calendar.png"alt ="календарь" width="26px">7-12 ночей</li>
-                                        <li class="date-food__item"><img class="date-food__food" src="../img/meal.png"alt ="food" width="26px">Завтраки</li>
-                                    </ul>
-                                </div>
-                                <div class="tour-card__description">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem odit, quidem fugit necessitatibus, provident dolores incidunt hic fugiat adipisci, illo et ex laudantium voluptate dignissimos harum reprehenderit voluptas neque vel?</p>
-                                </div>
-                                <div class ="tour-card__button">
-                                    <button class="card__button">СМОТРЕТЬ</button>
                                 </div>
                             </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
+                        </li>
 
-        <div class="news-block">
+                        <li class="tour-cards__list__item">
+                            <div class="tour-card">
+                                <div class="tour-card__image">
+                                    <img src="../img/pool.png" class="tour-card__image-item" alt="river">
+                                </div>
+                                <div class="tour-card__content">
+                                    <div class="tour-card__name-block">
+                                        <h2 class="tour-card__name">Бали</h2>
+                                    </div>
+                                    <div class="tour-card__date-food">
+                                        <ul class="tour-card__list">
+                                            <li class="date-food__item"><img class="date-food__calendar" src="../img/calendar.png"alt ="календарь" width="26px">7-12 ночей</li>
+                                            <li class="date-food__item"><img class="date-food__food" src="../img/meal.png"alt ="food" width="26px">Завтраки</li>
+                                        </ul>
+                                    </div>
+                                    <div class="tour-card__description">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem odit, quidem fugit necessitatibus, provident dolores incidunt hic fugiat adipisci, illo et ex laudantium voluptate dignissimos harum reprehenderit voluptas neque vel?</p>
+                                    </div>
+                                    <div class ="tour-card__button">
+                                        <button class="card__button">СМОТРЕТЬ</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="tour-cards__list__item">
+                            <div class="tour-card">
+                                <div class="tour-card__image">
+                                    <img src="../img/ocean.png" class="tour-card__image-item" alt="river">
+                                </div>
+                                <div class="tour-card__content">
+                                    <div class="tour-card__name">
+                                        <h2 class="tour-card__name">Индонезия</h2>
+                                    </div>
+                                    <div class="tour-card__date-food">
+                                        <ul class="tour-card__list">
+                                            <li class="date-food__item"><img class="date-food__calendar" src="../img/calendar.png"alt ="календарь" width="26px">7-12 ночей</li>
+                                            <li class="date-food__item"><img class="date-food__food" src="../img/meal.png"alt ="food" width="26px">Завтраки</li>
+                                        </ul>
+                                    </div>
+                                    <div class="tour-card__description">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem odit, quidem fugit necessitatibus, provident dolores incidunt hic fugiat adipisci, illo et ex laudantium voluptate dignissimos harum reprehenderit voluptas neque vel?</p>
+                                    </div>
+                                    <div class ="tour-card__button">
+                                        <button class="card__button">СМОТРЕТЬ</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+        </section>>
+
+        <section class="news-block">
             <ul class="news-block__card-list">
-                <li class="news-block__card-list__item">
+                <li class="news-block__item">
                     <div class="news-block__card">
-                        <h4 class ="news-block__card__date">Декабрь 2019</h4>
-                        <h3 class="news-block__card__name">Дешевые путевки на Новый Год</h3>
-                        <p class="news-block__card__description">
+                        <h4 class ="news-block__date">Декабрь 2019</h4>
+                        <h3 class="news-block__name">Дешевые путевки на Новый Год</h3>
+                        <p class="news-block__description">
                             Lorem, ipsum dolor sit amet.
                         </p>
                     </div>
                 </li>
 
-                <li class="news-block__card-list__item">
+                <li class="news-block__item">
                     <div class="news-block__card">
-                        <h4 class ="news-block__card__date">Декабрь 2019</h4>
-                        <h3 class="news-block__card__name">Дешевые путевки на Новый Год</h3>
-                        <p class="news-block__card__description">
+                        <h4 class ="news-block__date">Декабрь 2019</h4>
+                        <h3 class="news-block__name">Акция для сёрфингистов</h3>
+                        <p class="news-block__description">
                             Lorem, ipsum dolor sit amet.
                         </p>
                     </div>
@@ -154,40 +159,42 @@
             <div class="pager-block">
                 <div class="page-block__page-pointer">Страница 1 из 7</div>
                 <ul class="pager-block__list">
-                    <li class="pager-block__pointer">1</li>
-                    <li class="pager-block__pointer">2</li>
-                    <li class="pager-block__pointer">3</li>
-                    <li class="pager-block__pointer">4</li>
-                    <li class="pager-block__pointer">5</li>
-                    <li class="pager-block__pointer">6</li>
-                    <li class="pager-block__pointer">7</li>
+                    <li class="pager-block__pointer"> <a href="#" class="pager-block__item">1</a> </li>
+                    <li class="pager-block__pointer"> <a href="#" class="pager-block__item">2</a> </li>
+                    <li class="pager-block__pointer"> <a href="#" class="pager-block__item">3</a> </li>
+                    <li class="pager-block__pointer"> <a href="#" class="pager-block__item">4</a> </li>
+                    <li class="pager-block__pointer"> <a href="#" class="pager-block__item">5</a> </li>
+                    <li class="pager-block__pointer"> <a href="#" class="pager-block__item">6</a> </li>
+                    <li class="pager-block__pointer"> <a href="#" class="pager-block__item">7</a> </li>
                 </ul>
             </div>
-        </div>
+        </section>
 
-        <div class="about-us">
-            <div class="images">
-                <img src="../img/gates.png" alt="gates" width="490px">
+        <section class="about-us">
+            <div class="about-us__images">
+                <img src="../img/gates.png" class="about-us__image" alt="gates" width="490px">
                 <div class="about-us__card">
                     <h3 class="about-us__headtext"> О нас </h3>
                     <p class="about-us__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae a ipsum optio nesciunt nisi veritatis vel officiis, porro autem doloribus recusandae dicta ea eaque labore aspernatur cumque repellendus cum mollitia?</p>
                     <button class="button">ПОДРОБНЕЕ</button>
                 </div>
             </div>
-        </div>
+        </section>
+        </main>
 
-        <div class="footer">
-            <div class="logo">
-                <a href="#" class="footer__logo">
-                    <img src="../img/лого.png" alt="Логотип">
+        
+        <footer class="footer">
+            <div class="footer-logo">
+                <a href="#" class="logo-link">
+                    <img src="../img/лого.png" class="logo-image" alt="Логотип">
                 </a>
             </div>
 
-            <nav class="footer__navigation">
-                <ul class="footer__navigation-list">
-                    <li class="footer_navigation-item">Главная</li>
-                    <li class="footer_navigation-item">Услуги</li>
-                    <li class="footer_navigation-item">Отзывы</li>
+            <nav class="navigation">
+                <ul class="navigation-list">
+                    <li class="navigation-item"> <a href="" class="navigation__link">Главная</a></li>
+                    <li class="navigation-item"> <a href="" class="navigation__link">Услуги</a></li>
+                    <li class="navigation-item"> <a href="" class="navigation__link">Отзывы</a></li>
                 </ul>
             </nav>
 
@@ -204,7 +211,7 @@
                 <p class="footer__telephone-text">Бесплатный звонок по России</p>
                 <a href="tel" class="contacts__telephone">8 800 700 30 30</a>
             </div>
-        </div>
+        </footer>
 
         
     </div>
