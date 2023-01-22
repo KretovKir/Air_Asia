@@ -551,31 +551,31 @@ li{
     margin-bottom: 68px;
 }
 
-.social{
+.social--footer{
     position: absolute;
+    display: inline-block;
     width:179px;
     height: 36px;
-    
 }
 
+.contacts--footer{
+    position: relative;
+    left: 950px;
+    top: -10px;
+}
+
+.contacts__schedule--footer{
+    position: absolute;
+    top: -7px;
+    left: -65px;
+}
 
 .contacts__link--footer{
-    position: absolute;
     font-family: "Open Sans", sans-serif;
     font-size: 11px;
     font-weight: 400;
     line-height: 20px;
     width: 163px;
-    top: 43px;
+    position: absolute;
 }
 
-.contacts__schedule--footer{
-    position: absolute;
-    top: 42px;
-}
-
-.contacts__telephone--footer{
-    position: absolute;
-    top: 69px;
-    width:191px;
-}
