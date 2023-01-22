@@ -471,7 +471,7 @@ li{
 }
 
 
-/*Разобраться с отображением социалок*/
+/*Разобраться с отображением социалок
 
 .footer{
     position: relative;
@@ -533,5 +533,49 @@ li{
     top:69px;
 }
 
+*/
+
+.footer{
+    position:relative;
+    height: 146px;
+    width: 100%;
+    color: white;
+    margin-top: 59px;
+    
+}
+
+.footer__content{
+    border-top: 4px solid rgba(255,255,255,0.1);
+    padding-top: 59px;
+    margin-top:85px;
+    margin-bottom: 68px;
+}
+
+.social{
+    position: absolute;
+    width:179px;
+    height: 36px;
+    
+}
 
 
+.contacts__link--footer{
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 163px;
+    top: 43px;
+}
+
+.contacts__schedule--footer{
+    position: absolute;
+    top: 42px;
+}
+
+.contacts__telephone--footer{
+    position: absolute;
+    top: 69px;
+    width:191px;
+}
