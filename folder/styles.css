@@ -138,6 +138,7 @@ li{
     width:168px;
     height:55px;
     border-radius: 35px;
+    border-color: transparent;
     background-color:#F5170E;
     color:white;
     font-weight: 700;
@@ -146,7 +147,14 @@ li{
     padding-top: 5px;
     padding-left: 9px;
     margin-bottom: 246px;
+    cursor: pointer;
 }
+
+.button:hover{
+    background-color: #DA0100;
+    transition: background 0.3s;
+}
+
 
 .burning-tours{
     margin-bottom: 127px;
@@ -230,6 +238,7 @@ li{
     color: #F5170E;
     margin-top: 25px;
     margin-bottom:26px;
+    cursor: pointer;
 }
 
 .news__headtxt{
