@@ -213,13 +213,16 @@ h1,h2,h3,h4{
     padding-left: 22px;
     padding-top:33px;
 }
-
+/* 
 .tour-card__name-block{
     margin-bottom: 22px;
-}
+} */
+
+
 
 .date-food__item{
     display: inline-block;
+    margin-top: 22px;
 }
 
 .date-food__item:not(:first-child){
