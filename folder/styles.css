@@ -24,6 +24,7 @@ body{
     font-size:14px;
     line-height: 19.07px;
     font-weight: 400;
+    margin-bottom: 246px;
 }
 
 a{
@@ -40,6 +41,9 @@ li{
     list-style: none;
 }
 
+h1,h2,h3,h4{
+    margin:0
+}
 
 .container{
     margin: 0 auto;
@@ -134,7 +138,6 @@ li{
     font-size: 18px;
     font-weight: 400;
     line-height: 20px;
-    margin-top: -32px;
     margin-bottom: 34px;
 }
 
@@ -150,7 +153,7 @@ li{
     line-height: 19.07px;
     padding-top: 5px;
     padding-left: 9px;
-    margin-bottom: 246px;
+   
     cursor: pointer;
 }
 
@@ -208,22 +211,27 @@ li{
     border-radius: 0 0 5px 5px;
     margin-top: 0px;
     padding-left: 22px;
+    padding-top:33px;
 }
 
-.tour-card__headtxt{
-    padding-top:33px;
+.tour-card__name-block{
+    margin-bottom: 22px;
 }
 
 .date-food__item{
     display: inline-block;
 }
 
+.date-food__item:not(:first-child){
+    margin-left:28px;
+}
+
+
 .tour-card__night{
     margin-left: 10px;
 }
 
 .date-food__food{
-    margin-left:28px;
     margin-right: 10px;
 }
 
@@ -357,7 +365,7 @@ li{
 .news__content{
     position:absolute;
     max-width: 417px;
-    max-height:65px;
+    
     top: 180px;
     left: 0px;
     right: 0px;
@@ -372,7 +380,7 @@ li{
     letter-spacing: 0px;
     text-align: left;
     color: white;
-    margin-bottom: -15px;
+    margin-bottom: 13px;
 }
 .news__name{
     font-family: "Open Sans",sans-serif;
@@ -461,8 +469,9 @@ li{
     position: absolute;
     display: inline-block;
     background-image: url(../img/mountains.png);
+    background-repeat: no-repeat;
     width:785px;
-    height: 455px;
+    
     top: 97px;
     left: 355px;
     border-radius: 5px;
@@ -472,6 +481,7 @@ li{
     width: 502px;
     margin-top: 70px;
     margin-left: 81px;
+    margin-bottom: 66px;
 }
 
 .about-us__headtxt{
@@ -574,9 +584,6 @@ li{
 
 .social{
     width:174px;
-}
-
-.social-list{
     position: absolute;
     top: 35px;
     left: 700px;
