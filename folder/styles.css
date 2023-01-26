@@ -19,6 +19,7 @@ body{
     overflow:hidden;
 }
 
+
 .hero{
     color: #fff;
     font-size:14px;
@@ -368,7 +369,6 @@ h1,h2,h3,h4{
 .news__content{
     position:absolute;
     max-width: 417px;
-    
     top: 180px;
     left: 0px;
     right: 0px;
@@ -404,6 +404,7 @@ h1,h2,h3,h4{
     letter-spacing: 0px;
     text-align: left;
     color: white;
+    margin-top:7px;
 } 
 
 .news__cover{
@@ -589,7 +590,7 @@ h1,h2,h3,h4{
     width:174px;
     position: absolute;
     top: 35px;
-    left: 700px;
+    right: 260px;
 }
 
 .social__item{
