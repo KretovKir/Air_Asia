@@ -1,0 +1,90 @@
+
+
+.burning-tours{
+    margin-bottom: 127px;
+    width: 100%;
+}
+
+.burning-tours__headtxt{
+    font-family: "Open Sans",sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+    margin-bottom: 51px;
+}
+
+.tour-cards{
+   
+    display: flex
+}
+
+.tour-cards__item{
+    display: inline-block;
+}
+
+.tour-cards__item:not(:first-child){
+    margin-left: 27px;
+}
+
+.tour-card{
+    min-height: 450px;
+    width: 362px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.tour-card__image{
+    margin-bottom: -25px;
+}
+
+
+.tour-card__date-food{
+    display: flex;
+}
+
+.tour-card__content{
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    margin-top: 0px;
+    padding-left: 22px;
+    padding-top:33px;
+}
+/* 
+.tour-card__name-block{
+    margin-bottom: 22px;
+} */
+
+
+
+.date-food__item{
+    display: inline-block;
+    margin-top: 22px;
+}
+
+.date-food__item:not(:first-child){
+    margin-left:28px;
+}
+
+
+.tour-card__night{
+    margin-left: 10px;
+}
+
+.date-food__food{
+    margin-right: 10px;
+}
+
+
+.tour-card__description{
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 26px;
+}

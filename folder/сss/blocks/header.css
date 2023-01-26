@@ -1,0 +1,20 @@
+.header{
+    
+    display:flex;
+    justify-content: space-between;
+    margin-top: 29px;
+}
+
+.header__col{
+    display: flex;
+    
+    align-content: center;
+}
+
+.header__col-right{
+    justify-content: flex-end;
+}
+
+
+
+
