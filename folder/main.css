@@ -1,0 +1,17 @@
+/*layout*/
+@import url('./сss/layout/normalize.css');
+@import url('./сss/layout/base.css');
+
+
+/*blocks*/
+@import url('./сss/blocks/header.css');
+@import url('./сss/blocks/logo.css');
+@import url('./сss/blocks/contacts.css');
+@import url('./сss/blocks/navigation.css');
+@import url('./сss/blocks/hero.css');
+@import url('./сss/blocks/buttons.css');
+@import url('./сss/blocks/burning-tours.css');
+@import url('./сss/blocks/news.css');
+@import url('./сss/blocks/pager.css');
+@import url('./сss/blocks/about-us.css');
+@import url('./сss/blocks/footer.css');
