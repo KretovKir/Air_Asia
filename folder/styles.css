@@ -111,12 +111,15 @@ h1,h2,h3,h4{
 
 
 .contacts__link{
-   
     font-size: 13px;
     font-weight: 400;
     line-height: 20px;
-    
     text-decoration: none;
+}
+
+.contacts__schedule{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .hero__content{
@@ -620,13 +623,10 @@ h1,h2,h3,h4{
     cursor: pointer;
 }
 
-.navigation__footer{
-
-}
 
 .contacts__schedule--footer{
     display: flex;
-
+    justify-content: flex-end;
 }
 
 .contacts__link--footer{
@@ -635,7 +635,10 @@ h1,h2,h3,h4{
     font-weight: 400;
     line-height: 20px;
     width: 163px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    color:#9A9A9A;
+    align-items: flex-end;
 }
 
 
