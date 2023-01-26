@@ -52,21 +52,28 @@ h1,h2,h3,h4{
 }
 
 .header{
-    height: 80px;
-    position: relative;
+    
+    display:flex;
+    justify-content: space-between;
+    margin-top: 29px;
+}
+
+.header__col{
+    display: flex;
+    
+    align-content: center;
+}
+
+.header__col-right{
+    justify-content: flex-end;
 }
 
 .logo{
     display: block;
-    position: absolute;
-    top: 29px;
-    left: 0px;
 }
 
 .navigation{
-    position: absolute;
-    top: 43px;
-    left: 79px;
+    padding-top: 10px;
 }
 
 .navigation__list{
@@ -96,23 +103,12 @@ h1,h2,h3,h4{
 }
 
 
-.contacts{
-    position: absolute;
-    top: 28px;
-    right: 8px;
-}
-
 .contacts__telephone{
     font-size: 26px;
     font-weight: 400;
     line-height: 35.41px;
 }
 
-.contacts__schedule{
-    position: relative;
-    top: -8px;
-    left: 92px;
-}
 
 .contacts__link{
    
@@ -124,11 +120,15 @@ h1,h2,h3,h4{
 }
 
 .hero__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-top: 117px;
+    max-width: 50%;
 }
 
+
 .hero__headtxt{
-    max-width: 511px;
     width:100%;
     font-size: 72px;
     font-weight: 700;
@@ -181,7 +181,8 @@ h1,h2,h3,h4{
 }
 
 .tour-cards{
-    display: inline-block;
+   
+    display: flex
 }
 
 .tour-cards__item{
@@ -197,14 +198,16 @@ h1,h2,h3,h4{
     width: 362px;
     position: relative;
     display: inline-block;
+
 }
 
 .tour-card__image{
     margin-bottom: -25px;
 }
 
-.tour-card__list{
-    display: inline-block;
+
+.tour-card__date-food{
+    display: flex;
 }
 
 .tour-card__content{
@@ -355,8 +358,12 @@ h1,h2,h3,h4{
     width: 557px;
 }
 
+.news__card-list{
+    display: flex;
+}
+
 .news__item{
-    display: inline-block;
+    display: flex;
     position: relative;
     vertical-align: top;
     border-radius: 5px;
@@ -369,7 +376,7 @@ h1,h2,h3,h4{
 .news__content{
     position:absolute;
     max-width: 417px;
-    top: 180px;
+    top: 225px;
     left: 0px;
     right: 0px;
     padding: 0 30px;
@@ -415,27 +422,32 @@ h1,h2,h3,h4{
 }
 
 .pager{
+    display: flex;
     text-align: center;
+    justify-content: center;
     margin-top: 58px;
-   
 }
 
 .page__display{
-    display: inline-block;
     color: white;
     font-family: "Open Sans",sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
+    margin-top:5px;
 }
 
 .pager__list{
-    display: inline-block;
     margin-left: 25px;
+    display:flex;
 }
 
 .pager__pointer{
-    display: inline-block;
+    display: flex;
+}
+
+.pager__items{
+    padding-top:0px;
 }
 
 .pager__item{
@@ -463,19 +475,18 @@ h1,h2,h3,h4{
 }
 
 .about-us__image{
-    display: inline-block;
+    display: flex;
     width: 490px;
     height:505px;
     border-radius: 5px;
 }
-
+/*-------------------------------------------------------------------------------------------*/
 .about-us__card{
     position: absolute;
     display: inline-block;
     background-image: url(../img/mountains.png);
     background-repeat: no-repeat;
     width:785px;
-    
     top: 97px;
     left: 355px;
     border-radius: 5px;
@@ -570,7 +581,7 @@ h1,h2,h3,h4{
 */
 
 .footer{
-    position:relative;
+    
     height: 146px;
     width: 100%;
     color: white;
@@ -583,31 +594,39 @@ h1,h2,h3,h4{
     padding-top: 59px;
     margin-top:85px;
     margin-bottom: 68px;
+    display: flex;
+    justify-content: space-between;
 }
 
+.footer__first{
+    display: flex;
+}
+
+.footer__second{
+    display: flex;
+}
 
 .social{
     width:174px;
-    position: absolute;
-    top: 35px;
-    right: 260px;
+    margin-right: 74px;
+}
+
+.social__list{
+    display: flex;
+    justify-content: space-between;
 }
 
 .social__item{
-    display: inline-block;
     cursor: pointer;
 }
 
-.contacts--footer{
-    position: relative;
-    left: 950px;
-    top: -10px;
+.navigation__footer{
+
 }
 
 .contacts__schedule--footer{
-    position: absolute;
-    top: -15px;
-    left: 25px;
+    display: flex;
+
 }
 
 .contacts__link--footer{
@@ -616,6 +635,7 @@ h1,h2,h3,h4{
     font-weight: 400;
     line-height: 20px;
     width: 163px;
-    position: absolute;
+    display: inline-block;
 }
+
 
