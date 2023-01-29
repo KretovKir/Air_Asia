@@ -1,0 +1,110 @@
+.services-main{
+    background:white;
+}
+.services__cards{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    justify-content: space-between;
+    margin-top: 98px;
+}
+
+.services__card{
+    display: flex;
+    margin-bottom: 49px;
+}
+
+.services__card-content{
+    display: flex;
+    width: 100%;
+    padding:15px 30px 0 30px;
+}
+
+.services__card-text{
+    margin-left: 57px;
+    margin-top: 10px;
+}
+
+.services__card-title{
+    margin-bottom: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.services__card-description{
+    margin-bottom:35px;
+}
+
+.services__card-description p{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.services__link:hover{
+    background-color: #F4F5F5;
+    
+}
+
+.services__link:hover .card-button--services{
+    color: white;
+    background-color: #F5170E;
+    transition: background .3s;
+}
+
+.pager--services{
+    margin-bottom:84px;
+}
+
+.page__display--services{
+    color: black;
+}
+
+.pager__item--services{
+    color: black;
+}
+
+
+.pager__item--services:hover{
+    color: white;
+    background: #F5170E;
+}
+
+.partners{
+    background-color: #F4F5F5;
+    padding-bottom: 117px;
+}
+
+.partners__text{
+    margin-top: 88px;
+    margin-bottom: 79px;
+}
+
+.partners__title{
+    font-family: "Open Sans";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+
+
+.partners__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partners__item{
+    width: 250px;
+    margin-top: 20px; 
+}
+

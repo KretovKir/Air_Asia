@@ -1,20 +1,20 @@
 /*layout*/
-@import url('/folder/сss/layout/normalize.css');
-@import url('/folder/сss/layout/base.css');
+@import url('/folder/css/layout/normalize.css');
+@import url('/folder/css/layout/base.css');
 
 
 /*blocks*/
-@import url('./сss/blocks/header.css');
-@import url('./сss/blocks/logo.css');
-@import url('./сss/blocks/contacts.css');
-@import url('./сss/blocks/navigation.css');
-@import url('./сss/blocks/hero.css');
-@import url('./сss/blocks/buttons.css');
-@import url('./сss/blocks/burning-tours.css');
-@import url('./сss/blocks/news.css');
-@import url('./сss/blocks/pager.css');
-@import url('./сss/blocks/about-us.css'); 
-@import url('./сss/blocks/footer.css');
-@import url('./сss/blocks/services/top-line.css');
-@import url('./сss/blocks/services/services-main.css');
-@import url('./сss/blocks/services/footer-services.css');
+@import url('./css/blocks/header.css');
+@import url('./css/blocks/logo.css');
+@import url('./css/blocks/contacts.css');
+@import url('./css/blocks/navigation.css');
+@import url('./css/blocks/hero.css');
+@import url('./css/blocks/buttons.css');
+@import url('./css/blocks/burning-tours.css');
+@import url('./css/blocks/news.css');
+@import url('./css/blocks/pager.css');
+@import url('./css/blocks/about-us.css'); 
+@import url('./css/blocks/footer.css');
+@import url('./css/blocks/services/top-line.css');
+@import url('./css/blocks/services/services-main.css');
+@import url('./css/blocks/services/footer-services.css');
