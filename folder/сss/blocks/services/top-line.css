@@ -1,8 +1,0 @@
-.top-line{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 412px;
-    flex: 1;
-    background: url('/img/headline-services.png');
-}
