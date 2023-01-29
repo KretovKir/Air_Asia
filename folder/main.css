@@ -1,6 +1,6 @@
 /*layout*/
-@import url('./css/layout/normalize.css');
-@import url('./css/layout/base.css');
+@import url('../folder/css/layout/normalize.css');
+@import url('../folder/css/layout/base.css');
 
 
 /*blocks*/
