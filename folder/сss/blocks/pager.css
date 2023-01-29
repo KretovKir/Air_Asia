@@ -1,8 +1,8 @@
 
 .pager{
     display: flex;
-    text-align: center;
     justify-content: center;
+    align-items: center;
     margin-top: 58px;
 }
 
@@ -18,10 +18,12 @@
 .pager__list{
     margin-left: 25px;
     display:flex;
+    align-items: center;
 }
 
 .pager__pointer{
     display: flex;
+    justify-content: center;
 }
 
 .pager__items{

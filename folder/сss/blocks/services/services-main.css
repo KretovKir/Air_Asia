@@ -17,6 +17,7 @@
 .services__card-content{
     display: flex;
     width: 100%;
+    padding:15px 30px 0 30px;
 }
 
 .services__card-text{
@@ -46,6 +47,18 @@
     letter-spacing: 0px;
     text-align: left;
 }
+
+.services__link:hover{
+    background-color: #F4F5F5;
+    
+}
+
+.services__link:hover .card-button--services{
+    color: white;
+    background-color: #F5170E;
+    transition: background .3s;
+}
+
 .pager--services{
     margin-bottom:84px;
 }

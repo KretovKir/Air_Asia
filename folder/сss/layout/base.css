@@ -7,11 +7,27 @@ body{
     -webkit-font-smoothing: antialiased;
     margin: 0;
     padding: 0;
+    min-height: 100%;
+}
+
+html{
+    min-height: 100%;
 }
 
 
 .wrapper{
     background-image: url(../../../img/fon.png);
+    width: 100%;
+    height: 100%;
+    background-position: 50% 0;
+    background-size: cover;
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.wrapper--services{
     width: 100%;
     height: 100%;
     background-position: 50% 0;
@@ -41,4 +57,29 @@ h1,h2,h3,h4{
 .container{
     margin: 0 auto;
     width: 1150px;
+}
+
+.container--services{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    justify-content: space-between;
+}
+
+.breadcrumbs{
+    margin-bottom: 25px;
+}
+
+.breadcrumbs__item:not(:first-child){
+    margin-left:4px;
+    align-items: center;
+}
+
+
+.hero__headtxt{
+    width:100%;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1;
+    color: white;
 }

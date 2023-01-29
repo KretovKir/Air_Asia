@@ -16,13 +16,18 @@
     margin-bottom: 51px;
 }
 
-.tour-cards{
-   
-    display: flex
+.tour-cards__list{
+    display: flex;
 }
 
+.tour-card__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
 .tour-cards__item{
-    display: inline-block;
+    display: flex;
+    
 }
 
 .tour-cards__item:not(:first-child){
@@ -32,19 +37,12 @@
 .tour-card{
     min-height: 450px;
     width: 362px;
-    position: relative;
-    display: inline-block;
-
 }
 
 .tour-card__image{
     margin-bottom: -25px;
 }
 
-
-.tour-card__date-food{
-    display: flex;
-}
 
 .tour-card__content{
     background-color: white;
@@ -60,8 +58,9 @@
 
 
 
-.date-food__item{
-    display: inline-block;
+.tour-card__date-food{
+    display:flex;
+    justify-content: space-between;
     margin-top: 22px;
 }
 

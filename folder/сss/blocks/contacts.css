@@ -3,6 +3,7 @@
     font-size: 26px;
     font-weight: 400;
     line-height: 35.41px;
+    color: white;
 }
 
 
@@ -11,9 +12,11 @@
     font-weight: 400;
     line-height: 20px;
     text-decoration: none;
+    color: white;
 }
 
 .contacts__schedule{
     display: flex;
     justify-content: flex-end;
+    color: white;
 }
