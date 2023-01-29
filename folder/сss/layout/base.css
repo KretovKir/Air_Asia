@@ -22,9 +22,7 @@ html{
     background-position: 50% 0;
     background-size: cover;
     overflow:hidden;
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
+    
 }
 
 .wrapper--services{
