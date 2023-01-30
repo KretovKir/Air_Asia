@@ -17,7 +17,7 @@
 .about-us__card{
     position: absolute;
     display: inline-block;
-    background-image: url('../img/mountains.png');
+    background-image: url('../../../img/mountains.png');
     background-repeat: no-repeat;
     width:785px;
     top: 97px;
