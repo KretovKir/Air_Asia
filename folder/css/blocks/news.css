@@ -13,12 +13,9 @@
     margin-bottom: 152px;
 }
 
-.news__card{
-    width: 557px;
-}
-
 .news__card-list{
     display: flex;
+    justify-content: space-between;
 }
 
 .news__item{
@@ -26,10 +23,8 @@
     position: relative;
     vertical-align: top;
     border-radius: 5px;
-}
-
-.news__item:not(:first-child){
-    margin-left: 25px;
+    width: calc(100% / 2 - 25px);
+    height:auto;
 }
 
 .news__content{

@@ -108,3 +108,21 @@
     margin-top: 20px; 
 }
 
+.partners__link{
+    width:230px;
+    height:100px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:25px;
+    filter: grayscale(100%);
+}
+
+.partners__link:nth-child(4n+1){
+    margin-left:0px;
+}
+
+.partners__link:hover{
+    filter: grayscale(0%);
+}

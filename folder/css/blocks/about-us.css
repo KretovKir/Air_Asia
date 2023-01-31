@@ -5,6 +5,7 @@
 
 .about-us__images{
     position: relative;
+   
 }
 
 .about-us__image{
@@ -12,6 +13,7 @@
     width: 490px;
     height:505px;
     border-radius: 5px;
+    flex-shrink:3;
 }
 /*-------------------------------------------------------------------------------------------*/
 .about-us__card{
@@ -23,6 +25,7 @@
     top: 97px;
     left: 355px;
     border-radius: 5px;
+    flex-shrink: 1;
 }
 
 .about-us__content{
