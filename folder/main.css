@@ -4,6 +4,7 @@
 
 
 /*blocks*/
+@import url('./css/blocks/start-page/start-page.css');
 @import url('./css/blocks/header.css');
 @import url('./css/blocks/logo.css');
 @import url('./css/blocks/contacts.css');
