@@ -18,6 +18,39 @@ html,body{
     /* overflow-x: hidden; */
 }
 
+.start-content{
+    
+    opacity: 0;
+    animation: start 1.2s forwards;
+}
+
+@keyframes start{
+    0%{
+        transform:scale(0.7);
+    }
+
+    20%{
+        transform: scale(1.2)
+    }
+
+    40%{
+        transform: scale(0.9)
+    }
+
+    60%{
+        transform: scale(1.1)
+    }
+
+    80%{
+        transform: scale(0.95)
+    }
+
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 .logo__image--start{
     height: 119px; 
     width: 279px;
