@@ -123,6 +123,11 @@
     filter: grayscale(100%);
 }
 
+.partners__link::after{
+    width: 185px; height: 43px;
+    background: url('/img/css_sprites.png') -258px -329px;
+}
+
 .partners__link:nth-child(4n+1){
     margin-left:0px;
 }

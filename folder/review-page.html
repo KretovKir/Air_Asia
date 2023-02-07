@@ -36,13 +36,15 @@
                     <div class="header__col header__col-right">
                         <div class="contacts">
                             <a href="tel" class="contacts__telephone">8 800 700 30 30</a>
-                            <div class="contacts__schedule">
-                                <a href="#" class="contacts__link">График работы</a>
+                            <div class="dropdown">
+                                <div class="contacts__schedule">
+                                    <a href="#" class="contacts__link">График работы</a>
+                                </div>
+                                <ul class="dropdown__list">
+                                    <li class="dropdown__item"><p class="shedule-block__days-time"><b>пн-вс: 09:00-20:00</b></p></li>
+                                    <li class="dropdown__item"><p class = "shedule-block__dinner">Обед: 14:00 - 14:30</p></li>
+                                </ul>
                             </div>
-                            <!-- <div class="shedule-block">
-                                <p class="shedule-block__days-time"><b>пн-вс: 09:00-20:00</b></p>
-                                <p class = "shedule-block__dinner">Обед: 14:00 - 14:30</p>
-                            </div> -->
                         </div>
                     </div>
         
@@ -55,9 +57,8 @@
 
                 <div class="breadcrumbs">
                     <ul class="breadcrumbs__list">
-                        <li class="breadcrumbs__item"><a href="index.html">Главная</a> </li>
-                        <li class="breadcrumbs__item">/</li>
-                        <li class="breadcrumbs__item"><a href="review-page.html"><b>Отзывы</b></a></li>
+                        <li class="breadcrumbs__item"><a href="index.html" class="breadcrumb">Главная /</a> </li>
+                        <li class="breadcrumbs__item"><a href="review-page.html" class="breadcrumb">Отзывы</a></li>
                     </ul>
                 </div>
             </div>
@@ -309,8 +310,8 @@
                     </div>
 
                     <div class="forms__buttons">
-                        <button class="button button--forms" type="reset">Очистить</button>
-                        <button class="button button--forms" type="submit">Отправить</button>
+                        <button class="button button--forms grey-button" type="reset">Очистить</button>
+                        <button class="button button--forms red-button" type="submit">Отправить</button>
                     </div>
                     
                 </form>

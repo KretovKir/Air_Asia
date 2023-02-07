@@ -10,16 +10,31 @@
 }
 
 .header__col--right{
+    position: relative;
     justify-content: flex-end;
 }
 
-.dropdown:hover .dropdown__list{  
-    opacity: 100%;
+
+.contacts__link{
+    text-align: end;
+}   
+
+.contacts__link:hover ~ .dropdown__list{
+    display:block;
+}
+
+.dropdown{  
+    position: relative;
+}
+
+.dropdown:hover .dropdown__list{
+    display: flex;
 }
 
 .dropdown__list{
-    margin-top: 15px;
-    margin-left: 35px;
+    position: absolute;
+    top:100%;
+    left: 30px;
     display: flex;
     flex-direction: column;
     width: 160px;
@@ -30,7 +45,8 @@
     color:#1E1F20;
     justify-content: center;
     align-items: center;
-    opacity: 0%;
+    display: none;
+   
 }   
 
 
