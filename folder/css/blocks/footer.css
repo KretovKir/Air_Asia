@@ -38,6 +38,29 @@
 }
 
 
+.social__item--tg{
+    width: 36px; height: 36px;
+    background: url('/img/sprites.png') -10px -66px;
+}
+
+
+.social__item--fb{
+    width: 36px; height: 36px;
+    background: url('/img/sprites.png') -10px -10px;
+}
+
+.social__item--vk{
+    width: 36px; height: 36px;
+    background: url('/img/sprites.png') -66px -10px;
+}
+
+
+.social__item--insta {
+    width: 36px; height: 36px;
+    background: url('/img/sprites.png') -66px -66px;
+}
+
+
 .contacts__schedule--footer{
     display: flex;
     justify-content: flex-end;

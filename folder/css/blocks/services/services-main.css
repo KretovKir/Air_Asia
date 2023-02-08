@@ -121,12 +121,9 @@
     align-items: center;
     margin-left:25px;
     filter: grayscale(100%);
+    
 }
 
-.partners__link::after{
-    width: 185px; height: 43px;
-    background: url('/img/css_sprites.png') -258px -329px;
-}
 
 .partners__link:nth-child(4n+1){
     margin-left:0px;
@@ -135,3 +132,15 @@
 .partners__link:hover{
     filter: grayscale(0%);
 }
+
+
+
+
+.bg-vk_blue {
+    width: 30px; height: 30px;
+    background: url('/img/sprites.png') -122px -10px;
+}
+
+
+
+
