@@ -16,7 +16,7 @@
 
 
 .contacts__link{
-    text-align: end;
+    text-align: end;;
 }   
 
 .contacts__link:hover ~ .dropdown__list{
@@ -25,11 +25,30 @@
 
 .dropdown{  
     position: relative;
+    display: flex;
+    justify-content: flex-end;
 }
+
 
 .dropdown:hover .dropdown__list{
     display: flex;
 }
+
+.dropdown:hover .contacts__schedule::before{
+    display: block;
+}
+
+.dropdown__item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    right: 0px;
+    height: 20px;
+    width: 100%;
+}
+
 
 .dropdown__list{
     position: absolute;
@@ -46,8 +65,23 @@
     justify-content: center;
     align-items: center;
     display: none;
-   
+    margin-top: 8px;
 }   
+
+
+
+.contacts__schedule::before{
+    content:"";
+    border: 10px solid;
+    width: 0;
+    height:100%;
+    border-color: transparent transparent #EDEDED transparent;
+    position: absolute;
+    top:-12px;
+    left: 128px;
+    opacity: 0.8;
+    display: none;
+}
 
 
 .shedule__content{
