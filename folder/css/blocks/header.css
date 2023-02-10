@@ -34,7 +34,7 @@
     display: flex;
 }
 
-.dropdown:hover .contacts__schedule::before{
+.dropdown:hover .dropdown__list::before{
     display: block;
 }
 
@@ -70,16 +70,15 @@
 
 
 
-.contacts__schedule::before{
+.dropdown__list::before{
     content:"";
     border: 10px solid;
     width: 0;
     height:100%;
     border-color: transparent transparent #EDEDED transparent;
     position: absolute;
-    top:-12px;
-    left: 128px;
-    opacity: 0.8;
+    top:-100px;
+    left: 100px;
     display: none;
 }
 
