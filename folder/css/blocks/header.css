@@ -77,8 +77,8 @@
     height:100%;
     border-color: transparent transparent #EDEDED transparent;
     position: absolute;
-    top:-100px;
-    left: 100px;
+    bottom:100%;
+    right: 40px;
     display: none;
 }
 
